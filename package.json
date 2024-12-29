@@ -1,0 +1,19 @@
+{
+    "name": "caching-proxy",
+    "version": "1.0.0",
+    "description": "A caching proxy server",
+    "main": "proxy-server.js",
+    "type": "module",
+    "bin": {
+        "caching-proxy": "./proxy-server.js"
+    },
+    "scripts": {
+        "start": "node proxy-server.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "node-cache": "^5.1.2",
+        "axios": "^1.6.2",
+        "yargs": "^17.7.2"
+    }
+}
